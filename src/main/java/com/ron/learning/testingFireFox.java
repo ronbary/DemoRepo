@@ -9,7 +9,7 @@ public class testingFireFox {
 		
 		
 		// in order to run FF with selenium 3 and above 
-		// need latest version of FF browser
+		// need latest version of FF browser very important !!!
 		
 		System.setProperty("webdriver.gecko.driver","D://Automation/Selenium/Drivers/geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
