@@ -16,6 +16,7 @@ public class testingFireFox {
 	
 		driver.get("http://www.google.com");
 		
+		// quit the browser
 		driver.quit();
 	
 	}
