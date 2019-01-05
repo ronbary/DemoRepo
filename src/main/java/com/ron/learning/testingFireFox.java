@@ -15,6 +15,8 @@ public class testingFireFox {
 		WebDriver driver = new FirefoxDriver();
 	
 		driver.get("http://www.google.com");
+		
+		driver.quit();
 	
 	}
 
